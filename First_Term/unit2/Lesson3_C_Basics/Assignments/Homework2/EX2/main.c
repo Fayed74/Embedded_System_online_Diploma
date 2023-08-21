@@ -9,7 +9,7 @@
 
 int main()
 {
-	char alphabet, vowels[] = {'a', 'e', 'i', 'o', 'u'};
+	char alphabet, vowels[] = {'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'};
 	int numVowels, isvowel = 0;
 
 	numVowels = sizeof(vowels)/sizeof(vowels[0]);
