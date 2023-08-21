@@ -37,6 +37,9 @@ int main()
 		output = N1 / N2;
 		printf("%.1f %c %.1f = %.1f", N1, operator, N2, output);
 		break;
+	default:
+		printf("Error! operator is not correct");
+		break;
 	}
 	return 0;
 }
