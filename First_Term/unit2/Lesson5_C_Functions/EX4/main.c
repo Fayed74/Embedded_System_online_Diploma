@@ -15,11 +15,15 @@
 
 int power(int N, int P)
 {
-	if(P>1)
+	if(P!=0)
 	{
-		N = N * power(N, P-1);
-		return N;
+		if(P>0)
+		{
+			N = N * power(N, P-1);
+			return N;
+		}
 	}
+	return 1;
 }
 int main()
 {
